@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "custom-origins-mednis",
+  "version": "${version}",
+  "name": "Custom Origins Mednis",
+  "description": "Custom Origins Additions for Greener Pastures",
+  "authors": [
+    "Mednis"
+  ],
+  "contact": {
+    "website": "mednis.id.lv"
+  },
+  "license": "MIT",
+  "icon": "assets/custom-origins-mednis/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "mods.mednis.id.lv.customoriginsmednis.client.CustomOriginsMednisClient"
+    ],
+    "main": [
+      "mods.mednis.id.lv.customoriginsmednis.CustomOriginsMednis"
+    ]
+  },
+  "mixins": [
+    "custom-origins-mednis.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.18.1"
+  }
+}

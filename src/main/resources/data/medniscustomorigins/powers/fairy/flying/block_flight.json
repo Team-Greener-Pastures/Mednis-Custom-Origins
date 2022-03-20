@@ -1,0 +1,26 @@
+{
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:revoke_power",
+        "power": "medniscustomorigins:fairy/flying/flying",
+        "source": "medniscustomorigins:testing_origin"
+      },
+      {
+        "type": "origins:grant_power",
+        "power": "medniscustomorigins:fairy/flying/no_flying",
+        "source": "medniscustomorigins:testing_origin"
+      }
+    ]
+  },
+  "interval": 20,
+  "condition": {
+    "type": "origins:food_level",
+    "comparison": "<",
+    "compare_to": 4
+  }
+
+
+}

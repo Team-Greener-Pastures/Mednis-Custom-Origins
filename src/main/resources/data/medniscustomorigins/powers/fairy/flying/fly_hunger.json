@@ -1,0 +1,8 @@
+{
+  "type": "origins:exhaust",
+  "interval": 1,
+  "exhaustion": 10.0,
+  "condition": {
+    "type": "origins:creative_flying"
+  }
+}
