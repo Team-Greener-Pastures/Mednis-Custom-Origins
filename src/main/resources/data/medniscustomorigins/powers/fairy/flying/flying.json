@@ -1,5 +1,6 @@
 {
   "type": "origins:multiple",
+  "hidden": true,
   "creative_flight": {
     "type": "origins:creative_flight"
   }

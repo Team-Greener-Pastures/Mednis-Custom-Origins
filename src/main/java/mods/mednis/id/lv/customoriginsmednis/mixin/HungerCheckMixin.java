@@ -24,13 +24,8 @@ abstract class HungerCheckMixin {
         for (FlyPower flyPower : PowerHolderComponent.getPowers(entity, FlyPower.class)) {
             if(entity.isPlayer() || FlyPower.shouldStopFlight(entity)) {
                 PlayerEntity player = (PlayerEntity) entity;
-                CustomOriginsMednis.LOGGER.info("Should not be able to fly....");
-
-
-                if (player.getAbilities().flying) {
-
+                if (player.getAbilities().flying && !player.getAbilities().creativeMode) {
                     player.getAbilities().flying = false;
-                    CustomOriginsMednis.LOGGER.info("Stooping Flight!");
                 }
             }
         }

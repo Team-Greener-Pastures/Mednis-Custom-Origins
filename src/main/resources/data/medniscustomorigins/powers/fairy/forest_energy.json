@@ -1,0 +1,22 @@
+{
+  "name": "Woodland Energy",
+  "description": "Forests are your home, and as such being in them provides you with additional resistance to threats.",
+  "condition": {
+    "type": "origins:biome",
+    "biome": "minecraft:forest"
+  },
+  "type": "origins:action_over_time",
+  "interval": 20,
+  "entity_action": {
+    "type": "origins:apply_effect",
+    "effects": [
+      {
+        "effect": "minecraft:resistance",
+        "duration": 100,
+        "amplifier": 0,
+        "show_particles": false,
+        "show_icon": true
+      }
+    ]
+  }
+}

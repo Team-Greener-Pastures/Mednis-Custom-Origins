@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 
 public class CustomOriginsMednis implements ModInitializer {
 
-    public static final Logger LOGGER = LoggerFactory.getLogger("CustomOriginsMednis");
+    public static final Logger LOGGER = LoggerFactory.getLogger("Mednis - Origins");
 
 
     @Override
@@ -15,7 +15,8 @@ public class CustomOriginsMednis implements ModInitializer {
         // Load all the powers!
         Powers.register();
 
-        LOGGER.info("-- Custom Origins Loaded 123 --");
+        LOGGER.info("-- Mednis Origins Loaded --");
+        LOGGER.info("Currently adding: {} origin(s)",1);
 
 
 

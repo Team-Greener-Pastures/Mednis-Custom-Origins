@@ -1,0 +1,16 @@
+{
+  "name": "Night Sparkle",
+  "description": "As with all fairies, your magical powers give you a warm, yellow glow during the night!",
+  "type": "origins:self_glow",
+  "entity_condition": {
+    "type": "origins:daytime",
+    "inverted": true
+  },
+  "bientity_condition": {
+    "type": "origins:can_see"
+  },
+  "use_teams": false,
+  "red": 0.80,
+  "green": 0.75,
+  "blue": 0.0
+}

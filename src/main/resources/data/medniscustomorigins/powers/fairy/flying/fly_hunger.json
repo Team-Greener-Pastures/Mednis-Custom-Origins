@@ -1,7 +1,9 @@
 {
   "type": "origins:exhaust",
-  "interval": 1,
-  "exhaustion": 10.0,
+  "name": "Flight Hunger",
+  "description": "Flying is pretty energy intensive... you kinda have to lift your entire body and move around during it... so it is pretty exhaustive",
+  "interval": 20,
+  "exhaustion": 0.812,
   "condition": {
     "type": "origins:creative_flying"
   }

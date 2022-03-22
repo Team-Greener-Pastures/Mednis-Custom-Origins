@@ -1,0 +1,18 @@
+{
+  "powers": [
+    "medniscustomorigins:fairy/flying/allow_flight",
+    "medniscustomorigins:fairy/small_size",
+    "medniscustomorigins:fairy/forest_energy",
+    "medniscustomorigins:fairy/night_glow",
+    "origins:fragile",
+    "medniscustomorigins:fairy/flying/block_flight",
+    "medniscustomorigins:fairy/flying/slow_fly",
+    "medniscustomorigins:fairy/flying/fly_hunger",
+    "origins:fall_immunity"
+  ],
+  "icon": "minecraft:fox_spawn_egg",
+  "order": 3,
+  "impact": 3,
+  "name": "Fairy",
+  "description": "Creatures of the forest, that can zip around the skies, spreading magic wherever they go!"
+}

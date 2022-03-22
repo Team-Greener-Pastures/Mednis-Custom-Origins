@@ -2,7 +2,6 @@ package mods.mednis.id.lv.customoriginsmednis.powers;
 
 import io.github.apace100.apoli.power.Power;
 import io.github.apace100.apoli.power.PowerType;
-import mods.mednis.id.lv.customoriginsmednis.CustomOriginsMednis;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
 
@@ -12,10 +11,13 @@ public class FlySpeedPower extends Power {
         super(type, entity);
 
         if (entity != null && entity.isPlayer()) {
-            PlayerEntity player = (PlayerEntity) entity;
-            CustomOriginsMednis.LOGGER.info("OG Fly Speed: {}",((PlayerEntity) entity).getAbilities().getFlySpeed());
-            player.getAbilities().setFlySpeed(speed);
-            CustomOriginsMednis.LOGGER.info("Changed Fly Speed: {}",((PlayerEntity) entity).getAbilities().getFlySpeed());
+            PlayerEntity player = (PlayerEntity) entity; // cast to player
+
+            if (player.getAbilities().creativeMode) { // If we're in creative, don't add the speed change!
+                player.getAbilities().setFlySpeed(0.05F);
+            } else {
+                player.getAbilities().setFlySpeed(speed); // Change the player speed!
+            }
         }
     }
 }

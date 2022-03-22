@@ -1,5 +1,6 @@
 {
   "type": "origins:action_over_time",
+  "hidden": true,
   "entity_action": {
     "type": "origins:and",
     "actions": [
@@ -15,7 +16,7 @@
       }
     ]
   },
-  "interval": 20,
+  "interval": 10,
   "condition": {
     "type": "origins:food_level",
     "comparison": "<",

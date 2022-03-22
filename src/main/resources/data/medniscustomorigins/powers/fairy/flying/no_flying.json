@@ -1,4 +1,5 @@
 {
   "type": "customoriginsmednis:fly",
+  "hidden": true,
   "fly": false
 }

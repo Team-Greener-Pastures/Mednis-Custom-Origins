@@ -2,7 +2,6 @@ package mods.mednis.id.lv.customoriginsmednis.powers;
 
 import io.github.apace100.apoli.power.Power;
 import io.github.apace100.apoli.power.PowerType;
-import mods.mednis.id.lv.customoriginsmednis.CustomOriginsMednis;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
@@ -18,8 +17,9 @@ public class FlyPower extends Power {
 
         if (entity != null && entity.isPlayer()) {
             PlayerEntity player = (PlayerEntity) entity;
-            player.getAbilities().flying = fly;
-            CustomOriginsMednis.LOGGER.info("Flying {}",((PlayerEntity) entity).getAbilities().flying);
+            if (!player.getAbilities().creativeMode){ // Make sure we don't hinder creative mode!
+                player.getAbilities().flying = fly;
+            }
         }
 
         FlyPower.shouldStopFlight = shouldStopFlight;
