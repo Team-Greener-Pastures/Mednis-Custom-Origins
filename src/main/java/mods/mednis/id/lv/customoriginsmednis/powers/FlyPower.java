@@ -22,7 +22,7 @@ public class FlyPower extends Power {
             }
         }
 
-        FlyPower.shouldStopFlight = shouldStopFlight;
+        //FlyPower.shouldStopFlight = shouldStopFlight;
     }
 
     public static boolean shouldStopFlight(Entity entity) {

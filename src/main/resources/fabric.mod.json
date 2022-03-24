@@ -11,7 +11,7 @@
     "website": "mednis.id.lv"
   },
   "license": "MIT",
-  "icon": "assets/custom-origins-mednis/icon.png",
+  "icon": "icons/Fairy.png",
   "environment": "*",
   "entrypoints": {
     "client": [

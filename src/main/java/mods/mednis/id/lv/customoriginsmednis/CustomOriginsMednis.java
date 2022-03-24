@@ -18,7 +18,5 @@ public class CustomOriginsMednis implements ModInitializer {
         LOGGER.info("-- Mednis Origins Loaded --");
         LOGGER.info("Currently adding: {} origin(s)",1);
 
-
-
     }
 }
