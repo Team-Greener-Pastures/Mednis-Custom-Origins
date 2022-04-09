@@ -11,7 +11,7 @@
     "medniscustomorigins:fairy/flying/fly_hunger",
     "origins:fall_immunity"
   ],
-  "icon": "minecraft:fox_spawn_egg",
+  "icon": "customoriginsmednis:fairy",
   "order": 3,
   "impact": 3,
   "name": "Fairy",
