@@ -1,13 +1,12 @@
 {
   "required": true,
-  "minVersion": "0.8",
-  "package": "mods.mednis.id.lv.customoriginsmednis.mixin",
-  "compatibilityLevel": "JAVA_17",
-  "mixins": [
+  "minVersion":"0.8",
+  "package":"mods.mednis.id.lv.customoriginsmednis.mixin",
+  "compatibilityLevel":"JAVA_17",
+  "mixins":[
+    "ElytraItemMixin"
   ],
-  "client": [
-  ],
-  "injectors": {
+  "injectors":{
     "defaultRequire": 1
   }
 }
