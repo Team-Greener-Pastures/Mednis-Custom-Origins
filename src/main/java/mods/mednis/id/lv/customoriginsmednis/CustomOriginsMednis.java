@@ -24,7 +24,7 @@ public class CustomOriginsMednis implements ModInitializer {
         Registry.register(Registry.ITEM, new Identifier("customoriginsmednis", "fairy"), FABRIC_ITEM);
 
         LOGGER.info("-- Mednis Origins Loaded --");
-        LOGGER.info("Currently adding: {} origin(s)",1);
+        LOGGER.info("Currently adding: {} origin(s)", 1);
 
     }
 }

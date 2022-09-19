@@ -1,0 +1,22 @@
+{
+  "name": "Fairy Dust",
+  "description": "Fairy dust, important for any flying fairy. Too long in the water and it washes off! You take water damage when you're in the water for too long.",
+  "type": "origins:damage_over_time",
+  "interval": 40,
+  "onset_delay": 4,
+  "damage": 0.5,
+  "damage_easy": 1,
+  "damage_source": {
+    "name": "hurt_by_water",
+    "unblockable": true,
+    "bypasses_armor": true
+  },
+  "protection_enchantment": "origins:water_protection",
+  "protection_effectiveness": 2.0,
+  "condition": {
+    "type": "origins:fluid_height",
+    "fluid": "minecraft:water",
+    "comparison": ">",
+    "compare_to": 0.0
+  }
+}

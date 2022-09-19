@@ -4,12 +4,12 @@
     "medniscustomorigins:fairy/small_size",
     "medniscustomorigins:fairy/forest_energy",
     "medniscustomorigins:fairy/night_glow",
-    "medniscustomorigins:fairy/fairy_purse",
-    "origins:fragile",
+    "medniscustomorigins:fairy/squishy",
     "medniscustomorigins:fairy/flying/block_flight",
-    "medniscustomorigins:fairy/flying/slow_fly",
+    "medniscustomorigins:fairy/flying/regular_flight",
     "medniscustomorigins:fairy/flying/fly_hunger",
-    "origins:fall_immunity"
+    "medniscustomorigins:fairy/flying/no_fall_damage",
+    "medniscustomorigins:fairy/water_damage"
   ],
   "icon": "customoriginsmednis:fairy",
   "order": 3,

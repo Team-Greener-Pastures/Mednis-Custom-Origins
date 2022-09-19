@@ -1,0 +1,11 @@
+{
+  "name": "Squishy",
+  "description": "Because of your small size and delicate fairy wings, you're are very squishy. Overall health has been reduced to 5 hearts!",
+  "type": "origins:attribute",
+  "modifier": {
+    "name": "Fragile health reduction",
+    "attribute": "minecraft:generic.max_health",
+    "value": -10.0,
+    "operation": "addition"
+  }
+}

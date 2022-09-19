@@ -17,15 +17,18 @@ abstract class HungerCheckMixin {
     private void checkHungerFlyState(CallbackInfo ci) {
         Entity entity = (Entity) (Object) this;
 
-
-
         PowerHolderComponent powerHolder = PowerHolderComponent.KEY.get(entity);
 
         for (FlyPower flyPower : PowerHolderComponent.getPowers(entity, FlyPower.class)) {
+
             if(entity.isPlayer() || FlyPower.shouldStopFlight(entity)) {
+
                 PlayerEntity player = (PlayerEntity) entity;
+
                 if (player.getAbilities().flying && !player.getAbilities().creativeMode) {
+
                     player.getAbilities().flying = false;
+
                 }
             }
         }

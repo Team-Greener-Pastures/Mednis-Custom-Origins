@@ -1,6 +1,6 @@
 {
-  "type": "customoriginsmednis:fly_speed",
   "name": "Tiny Wings",
   "description": "You have teeny tiny wings, they let you fly across the skies! It isn't the fastest way of transport, but you can get where no-one else can...",
+  "type": "customoriginsmednis:fly_speed",
   "speed": 0.01
 }

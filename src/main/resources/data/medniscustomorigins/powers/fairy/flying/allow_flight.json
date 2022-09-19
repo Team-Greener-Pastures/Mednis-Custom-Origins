@@ -18,8 +18,19 @@
   },
   "interval": 20,
   "condition": {
-    "type": "origins:food_level",
-    "comparison": ">",
-    "compare_to": 4
+    "type": "origins:or",
+    "conditions": [
+      {
+        "type": "origins:fluid_height",
+        "fluid": "minecraft:water",
+        "comparison": "<",
+        "compare_to": 0.0
+      },
+      {
+        "type": "origins:food_level",
+        "comparison": ">",
+        "compare_to": 4
+      }
+    ]
   }
 }
